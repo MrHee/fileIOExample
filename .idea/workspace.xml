@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0278638b-232f-4be0-9212-d92de40ef7c2" name="Changes" comment="Initial">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="0278638b-232f-4be0-9212-d92de40ef7c2" name="Changes" comment="Add FileWriter">
       <change beforePath="$PROJECT_DIR$/src/fileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileIO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680790137465</updated>
       <workItem from="1680790140517" duration="1773000" />
-      <workItem from="1680792578197" duration="298000" />
+      <workItem from="1680792578197" duration="458000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1680791836795</created>
@@ -68,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680791836795</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add FileWriter">
+      <created>1680792944154</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680792944154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Add FileWriter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FileWriter" />
   </component>
 </project>

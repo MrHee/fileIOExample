@@ -32,7 +32,7 @@ public class fileIO {
         return asArray;
     }
 
-    static void writeFile(String filename, int[]arr) throws IOException {
+    static void writeFile(String filename, int[] arr) throws IOException {
             BufferedWriter ow = null;
             ow = new BufferedWriter(new FileWriter(filename));
             for (int i = 0; i < arr.length; i++) {
