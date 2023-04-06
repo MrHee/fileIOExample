@@ -1,5 +1,4 @@
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -33,4 +32,17 @@ public class fileIO {
         return asArray;
     }
 
-}
+    static void writeFile(String filename, int[]arr) throws IOException {
+            BufferedWriter ow = null;
+            ow = new BufferedWriter(new FileWriter(filename));
+            for (int i = 0; i < arr.length; i++) {
+
+                ow.write(arr[i]+"");
+                ow.newLine();
+            }
+            ow.flush();
+            ow.close();
+        }
+    }
+
+
